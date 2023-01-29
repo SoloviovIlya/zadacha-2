@@ -5,13 +5,19 @@
 //a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введите 2 числа: ");
+
 int a = Convert.ToInt32(Console.ReadLine());
+
 int b = Convert.ToInt32(Console.ReadLine());
+
 if (a > b)
+
 {
     Console.WriteLine($"{a} - наибольшее, {b} - наименьшее");
 }
+
 else
+
 {
     Console.WriteLine($"{b} - наибольшее, {a} - наименьшее");
 }
